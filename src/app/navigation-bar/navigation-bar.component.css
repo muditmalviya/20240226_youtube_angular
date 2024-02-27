@@ -88,7 +88,7 @@ header {
 }
 
 .sign-in-button {
-    color: #3ea6ff;
+    /* color: #3ea6ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,11 @@ header {
     border: 1px solid var(--border-grey);
     padding: 6px 12px;
     border-radius: 50%;
-    font-size: 14px;
+    font-size: 14px; */
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: aqua;
 }
 .sign-in-icon {
     display: inline-block;
@@ -108,3 +112,13 @@ header {
 .mudit{
     color: white;
 }
+
+.menu-items{
+    display: flex;
+    align-items: center;
+  }
+  .menu-items svg {
+    vertical-align: middle;
+    margin-right: 5px; /* Add some spacing between icon and text */
+    height: 45px;
+  }
